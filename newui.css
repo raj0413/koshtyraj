@@ -1,0 +1,29 @@
+/* Reset some default styles to avoid unwanted spacing */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define the styles for the container and its children */
+.container {
+    display: flex; /* Use flexbox for layout */
+}
+
+.left {
+    flex: 1; 
+    padding: 20px; /* Add some padding for spacing */
+    
+}
+
+.right {
+    border-radius: 10rem;
+    padding-top: 8rem;
+    flex: 1; 
+    text-align: center; /* Center-align the image */
+}
+
+img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    height: auto; /* Maintain aspect ratio */
+}
+

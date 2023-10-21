@@ -1,0 +1,30 @@
+.figma1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+.figma {
+    width: 45%; 
+    margin: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.figma p {
+    
+    text-decoration: none;
+    
+    
+}
+.figma img {
+  
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    transition: all ease 1s;
+}
+
+
+.figma:hover img{
+    scale: 1.2;
+}

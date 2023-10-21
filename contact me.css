@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background: local;
+}
+.contact-form {
+   
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+.name {
+    margin-left: 1.5em;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.divider{
+    border: none;
+    height: 1px;
+    background-color: black;
+    box-shadow: 0 2px 16px black;
+}
+
+.internal{
+    font-size: 15px;
+    text-align: center;
+    font-family: cursive;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 6.2px;
+    text-align: center;
+    
+}
+nav{
+    text-align: center;
+    
+}
+
+
+
+.div1{
+    height: 30rem;
+    width: 100%;
+    background-color: rgba(44, 40, 40, 0.94)
+    
+}
+.footer1{
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    margin: 0;
+    font-size: 20px;
+    font-family:cursive;
+    color: #fff;
+}
+.logo-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    color: #fefbfb;
+}
+.name1 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.internal1{
+    font-size: 10px;
+    text-align: center;
+    font-family: cursive;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
