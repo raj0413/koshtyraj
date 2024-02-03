@@ -1,0 +1,149 @@
+.logo-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.name {
+    margin-left: 1.5em;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.divider{
+    border: none;
+    height: 1px;
+    background-color: black;
+    box-shadow: 0 2px 16px black;
+}
+
+.internal{
+    font-size: 15px;
+    text-align: center;
+    font-family: cursive;
+}
+
+/*header css completes*/
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 7.5px;
+    text-align: center;
+    
+}
+nav{
+    background-color: black;
+    
+}
+/*navigation bar css completes*/
+
+.qwertz{
+    display: flex;
+    justify-content: center;
+}
+.css{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 20px;
+    
+}
+.text{
+    font-size: 20px;
+    font-family: fantasy;
+}
+/*
+.img{
+    text-align: center;
+    height: 20rem;
+    width: 20rem;
+    position: relative;
+    margin-bottom: 20px;
+}
+.img p{
+    margin-top: 5%;
+}
+.description{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    color: #fff;
+}
+.grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+@media (max-width: 768px){
+    .grid{
+        flex-direction: column;
+    }
+    .image-description {
+        position: static;
+        background-color: transparent;
+        color: initial;
+        padding: 0;
+    }
+}
+*/
+
+
+/* main tag css completes*/
+
+.div1{
+    height: 23rem;
+    width: 100%;
+    background-color: rgba(44, 40, 40, 0.94)
+}
+.logo-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    color: #fefbfb;
+}
+.name1 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.internal1{
+    font-size: 10px;
+    text-align: center;
+    font-family: cursive;
+}
+.footer1{
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    margin: 0;
+    font-size: 20px;
+    font-family:cursive;
+    color: #fff;
+   
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
